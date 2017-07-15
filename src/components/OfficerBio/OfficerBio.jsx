@@ -14,7 +14,9 @@ const OfficerBio = ({
   return (
     <li className="list-group-item list-group-item-action flex-column align-items-start">
       <div className="d-flex justify-content-between">
-        <div>
+        <div
+          style={{ width: '50%' }}
+        >
           <h5 className="mb-1">{name}</h5>
           <h6 className="mb-1">{officerPosition}</h6>
           <p className="mb-1">Years climbing: {yearsClimbing}</p>
@@ -25,7 +27,9 @@ const OfficerBio = ({
         </div>
         {
           officerPhoto &&
-          <div>
+          <div
+            style={{ width: '50%' }}
+          >
             <img src={officerPhoto} className="img-fluid" alt={name} />
           </div>
         }
