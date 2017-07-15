@@ -11,10 +11,15 @@ const OfficerBio = ({
   favoriteClimbingQuote,
 }) => {
   return (
-    <div>
-      <h4>{name}</h4>
-      <h5>{officerPosition}</h5>
-    </div>
+    <li className="list-group-item list-group-item-action flex-column align-items-start">
+      <h5 className="mb-1">{name}</h5>
+      <h6 className="mb-1">{officerPosition}</h6>
+      <p className="mb-1">Years climbing: {yearsClimbing}</p>
+      <p className="mb-1">Favorite discipline: {favoriteDiscipline}</p>
+      <p className="mb-1">Climbing pet peeve: {climbingPetPeeve}</p>
+      <p className="mb-1">Sending food: {sendingFood}</p>
+      <p className="mb-1">Favorite climbing quote: {favoriteClimbingQuote}</p>
+    </li>
   )
 }
 

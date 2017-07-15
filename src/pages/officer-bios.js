@@ -11,9 +11,11 @@ export default class OfficerBios extends React.Component {
       <div>
         <h1>Current Cal Climbing Officers</h1>
         <h2>Fall 2017 Semester</h2>
-        {
-          officerBiosData.map(officerBioData => <OfficerBio key={officerBioData.name} {...officerBioData} />)
-        }
+        <ul className="list-group">
+          {
+            officerBiosData.map(officerBioData => <OfficerBio key={officerBioData.name} {...officerBioData} />)
+          }
+        </ul>
       </div>
     )
   }
