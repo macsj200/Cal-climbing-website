@@ -6,10 +6,11 @@ export default class Index extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hi people</h1>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <Link to="/page-2/">Go to page 2</Link>
+        <h1>Cal Climbing Website</h1>
+        <p>
+          This is the official website for Cal Climbing, the climbing club at <a href="http://www.berkeley.edu/">UC Berkeley</a>.
+        </p>
+        <Link to="/officer-bios/">Current officers</Link>
       </div>
     )
   }
