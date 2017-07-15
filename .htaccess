@@ -1,0 +1,18 @@
+# For security reasons, Option followsymlinks cannot be overridden.
+#Options +FollowSymlinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine on
+RewriteBase /
+# rewrite variables
+RewriteRule ^([a-zA-Z0-9_-]+)$ /index.php?page=$1
+# line to add the splash page
+# DirectoryIndex splashpage.html index.php
+# Errors
+ErrorDocument 404 /400.php
+ErrorDocument 404 /401.php
+ErrorDocument 404 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 404 /500.php
+# BEGIN WordPress
+
+# END WordPress
