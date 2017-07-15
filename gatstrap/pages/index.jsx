@@ -72,6 +72,15 @@ class SiteIndex extends React.Component {
     return (
       <DocumentTitle title={config.siteTitle}>
         <div className="container">
+          <div className="row">
+            <div className="col">
+              <h1>Cal Climbing Website</h1>
+              <p>
+                This is the official website for Cal Climbing, the climbing club at <a href="http://www.berkeley.edu/">UC Berkeley</a>.
+              </p>
+              <Link to="/officer-bios/">Current officers</Link>
+            </div>
+          </div>
           <div className="articles col-md-12">
             { pageLinks }
           </div>
