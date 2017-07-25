@@ -18,6 +18,12 @@ export default class Index extends React.Component {
         </div>
         <div className="row">
           <div className="col">
+            <h1>Cal Climbing Waiver</h1>
+            <a href="https://drive.google.com/file/d/0B11WQbRQEj5FUG9TT2J0azdVcGM/view">Waiver PDF Link</a>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
             <h1>Current Cal Climbing Officers</h1>
             <h2>Fall 2017 Semester</h2>
             <ul className="list-group">
